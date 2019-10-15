@@ -1,7 +1,19 @@
 {
   "name": "wordsmith",
   "displayName": "Wordsmith",
-  "description": "Suggests synonyms for the selected word. Useful when trying to find the perfect name for a variable or class.",
+  "description": "Suggests synonyms when trying to find the perfect name for a variable or class.",
+  "license": "SEE LICENSE IN LICENSE FILE",
+  "keywords": [
+    "word",
+    "name",
+    "synonym"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/max-wilkinson/wordsmith.git"
+  },
+  "publisher": "FordLabs",
+  "preview": true,
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.35.0"

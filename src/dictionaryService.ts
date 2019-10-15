@@ -28,6 +28,18 @@ export async function getSynonyms(word: string): Promise<string[]> {
 
   const response = await request(options);
   const result = JSON.parse(response);
-  const synonyms = result[0].meta.syns[0];
+  const synonyms = parseSynonyms(result);
+  return synonyms;
+}
+
+function parseSynonyms(result: any): string[] {
+  let synonyms: string[] = [];
+
+  try {
+    synonyms = result[0].meta.syns[0];
+  } catch {
+    synonyms = result;
+  }
+
   return synonyms;
 }

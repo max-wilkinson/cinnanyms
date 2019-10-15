@@ -1,6 +1,6 @@
 {
-  "name": "wordsmith",
-  "displayName": "Wordsmith",
+  "name": "cinnanyms",
+  "displayName": "Cinnanyms",
   "description": "Suggests synonyms when trying to find the perfect name for a variable or class.",
   "license": "SEE LICENSE IN LICENSE FILE",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/max-wilkinson/wordsmith.git"
+    "url": "https://github.com/max-wilkinson/cinnanyms.git"
   },
   "publisher": "FordLabs",
   "preview": true,
@@ -22,14 +22,14 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:extension.wordsmith"
+    "onCommand:extension.cinnanyms"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "extension.wordsmith",
-        "title": "Wordsmith"
+        "command": "extension.cinnanyms",
+        "title": "Cinnanyms"
       }
     ]
   },

@@ -20,7 +20,7 @@ import { getSynonyms } from './dictionaryService';
 
 export function activate(context: vscode.ExtensionContext) {
   let disposable = vscode.commands.registerCommand(
-    'extension.wordsmith',
+    'extension.cinnanyms',
     async function() {
       const editor = vscode.window.activeTextEditor;
 

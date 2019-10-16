@@ -1,4 +1,4 @@
-![hero-image](https://github.com/max-wilkinson/cinnanyms/blob/master/CinnanymsHero.png?raw=true)
+![Cinnanyms: Pronounced like Synonyms. Tastes like breakfast.](https://github.com/max-wilkinson/cinnanyms/blob/master/CinnanymsHero.png?raw=true)
 
 # Cinnanyms
 

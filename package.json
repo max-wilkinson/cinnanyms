@@ -9,6 +9,10 @@
     "synonym"
   ],
   "icon": "CinnanymsIcon.png",
+  "galleryBanner": {
+    "color": "#724C29",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/max-wilkinson/cinnanyms.git"

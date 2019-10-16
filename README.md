@@ -1,65 +1,39 @@
-# keyboard-fu README
+![hero-image](https://github.com/max-wilkinson/cinnanyms/blob/master/CinnanymsHero.png?raw=true)
 
-This is the README for your extension "keyboard-fu". After writing up a brief description, we recommend including the following sections.
+# Cinnanyms
+
+Cinnanyms suggests synonyms when trying to find the perfect name for a variable or class.
+
+## Background
+
+As a developer, picking the perfect name can be hard. By providing a curated list of related words, Cinnanyms makes naming things a breeze. As a result, you are free to focus on doing what you love - building software!
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Simply highlight a word in your current file, and run the Cinnanyms command to receive a curated list of related words. To run a command in VS Code hit `cmd/ctrl + shift + p`. Then type cinnanyms and hit enter.
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+This extension is designed to work right out of the box. No configuration is required in order to get started.
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
+Cinnanyms is in public beta. We are hard at work creating the best experience possible for this extension. If you have any feedback feel free to submit an issue to this repository.
 
-### 1.0.0
+### 0.0.1
 
-Initial release of ...
+Initial release of Cinnanyms
 
-### 1.0.1
+## Contributing
 
-Fixed issue #.
+Please read [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for details on our code of conduct when contributing or submitting issues.
 
-### 1.1.0
+## License
 
-Added features X, Y, and Z.
+Cinnanyms is licensed under the Apache License 2.0. See [LICENSE](LICENSE) for details.
 
------------------------------------------------------------------------------------------------------------
+## Attribution
 
-## Working with Markdown
+Cinnanyms dictionary service is powered by Merriam-Webster Inc.
 
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Cinnamon Roll icon made by [Freepik](https://www.freepik.com/home) from [flaticon](https://www.flaticon.com).
